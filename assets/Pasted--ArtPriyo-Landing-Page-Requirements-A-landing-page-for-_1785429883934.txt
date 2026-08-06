@@ -1,0 +1,72 @@
+# 🎨 ArtPriyo Landing Page Requirements
+
+A landing page for **ArtPriyo** needs to effectively communicate its unique value proposition: it's not just a social network, but a competitive and rewarding platform for creators. 
+
+Here is a comprehensive breakdown of the sections, features, and content needed for a high-converting landing page.
+
+---
+
+## 1. Hero Section (The First Impression)
+The very top of the page needs to instantly grab attention and explain what the app does.
+
+*   **Catchy Headline**: E.g., *"Where Creativity Meets Community"* or *"Showcase. Compete. Earn Big."*
+*   **Subheadline**: A brief explanation (e.g., *"The premier social platform for artists to share work, enter competitions, and win handsome amounts of money by showcasing your talent."*)
+*   **Call-to-Action (CTA) Buttons**: 
+    *   `[Download for iOS]` (App Store badge)
+    *   `[Download for Android]` (Google Play badge)
+*   **Visual**: A stunning, dynamic mockup of the ArtPriyo app running on a smartphone. Ideally, show the feed or a beautiful artist profile.
+
+## 2. Core Features (Why Use ArtPriyo?)
+Highlight the main pillars of the app in a visually appealing grid or alternating row layout.
+
+*   **🎭 Creative Social Network**: Mention seamless portfolio showcases, post creation (photos/videos), and connecting with other artists.
+*   **🏆 Competitions & Events**: Highlight that users can join category-based events (Digital Art, Photography, Music, etc.) and compete to **win handsome amounts of money** by simply showcasing their talent.
+*   **🥇 Dynamic Leaderboards**: Emphasize the point system, achievement badges, and the thrill of ranking up against peers.
+*   **💰 Integrated Wallet**: Mention the secure digital wallet for easy transactions and earning tracking.
+
+## 3. "How It Works" (User Journey)
+A simple 3 or 4-step process showing how easy it is to get started.
+
+1.  **Create Your Profile**: Set up your professional artist portfolio.
+2.  **Share & Discover**: Post your best work and find inspiration from others.
+3.  **Join Competitions**: Enter ongoing events matching your skill category.
+4.  **Earn Recognition**: Climb the leaderboards and get rewarded.
+
+## 4. App Showcase / Screenshots Gallery
+A visually rich section displaying the beautiful UI of the app.
+*   A carousel or masonry grid of high-quality app screenshots.
+*   Showcase specific screens: *The Feed*, *Leaderboard*, *Event Details*, and *Wallet*.
+
+## 5. Target Audience (Who is this for?)
+A brief section calling out the specific types of creators the app serves to build immediate connection.
+*   *For Digital Artists & Illustrators*
+*   *For Photographers & Videographers*
+*   *For Writers & Musicians*
+*   *For Dancers & Performers*
+
+## 6. Social Proof / Testimonials
+To build trust and credibility.
+*   Quotes from beta testers or early adopters (e.g., *"ArtPriyo changed how I share my art. The competitions push me to be better!"*)
+*   Logos of any partner organizations, sponsors, or featured artists.
+
+## 7. Final Call to Action (Bottom of Page)
+A final push to get the user to download the app before they leave the page.
+*   **Headline**: *"Ready to share your creativity with the world?"*
+*   **Buttons**: App Store & Google Play badges again.
+*   A QR code that users can scan on their desktop to immediately open the app store on their phone.
+
+## 8. Footer (Essential for App Store Deployments)
+Mandatory links required for Google Play Store and Apple App Store compliance, along with general navigation.
+*   **Store Compliance Links (REQUIRED)**: 
+    *   **Privacy Policy** (Mandatory for Play Store and App Store)
+    *   **Terms & Conditions** / Terms of Service
+    *   **Data Deletion Policy** (Required by Google Play for user data deletion requests)
+    *   **Competition & Sweepstakes Rules** (Crucial for app approval since real money is involved)
+*   **General Links**: About Us, Contact, FAQ, Support.
+*   **Social Links**: Instagram, Twitter/X, Discord, TikTok.
+
+---
+
+> [!TIP]
+> **Design Vibe Recommendations:**
+> The landing page should match the app's aesthetic. Use a modern, artistic color palette, smooth scroll animations, glassmorphism effects, and highly readable typography to ensure it feels **premium and creative**.

@@ -1,0 +1,863 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <title>ArtPriyo - Where Creativity Meets Community</title>
+    <meta
+      name="description"
+      content="The premier platform for artists to share work, enter competitions, and win handsome prize money. Join thousands of creators on ArtPriyo."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="ArtPriyo - Where Creativity Meets Community"
+    />
+    <meta
+      property="og:description"
+      content="The premier platform for artists to share work, enter competitions, and win handsome prize money."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="ArtPriyo - Where Creativity Meets Community"
+    />
+    <meta
+      name="twitter:description"
+      content="The premier platform for artists to share work, enter competitions, and win handsome prize money."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="overflow-x-hidden bg-background text-foreground font-sans antialiased"
+  >
+    <!-- Navbar -->
+    <nav
+      id="mainNav"
+      class="navbar navbar-expand-lg position-absolute w-100 transition-all duration-300 bg-transparent"
+      style="z-index: 1000"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand font-display fw-bold fs-4 logo-text"
+          href="#home"
+        >
+          <span class="logo-part-1">Art</span
+          ><span class="logo-part-2">priyo</span>
+        </a>
+        <button
+          class="navbar-toggler custom-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center gap-3">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="index.html#features"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="index.html#gallery"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="support.html">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="privacy.html">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="terms.html">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="gradient-mesh position-relative pt-6"
+      style="min-height: 100vh"
+    >
+      <div class="container">
+        <div class="row align-items-center" style="min-height: 90vh">
+          <div
+            class="col-lg-6 text-white mb-5 mb-lg-0"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
+            <h1
+              class="display-2 fw-bold mb-4 font-display"
+              style="line-height: 1.1"
+            >
+              Where Creativity Meets Community
+            </h1>
+            <p class="fs-5 mb-5 opacity-90" style="line-height: 1.6">
+              The premier platform for artists to share work, enter
+              competitions, and win handsome prize money.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mb-4">
+              <span
+                class="badge bg-white text-dark px-4 py-2 rounded-pill shadow-sm"
+                style="font-size: 0.95rem; opacity: 0.9; border: 1px solid #ddd"
+              >
+                <i class="fa-solid fa-rocket text-primary me-2"></i> Launching
+                Soon on Android
+              </span>
+            </div>
+            <div class="alert alert-info py-2 px-3 shadow-sm d-flex align-items-start text-start" role="alert" style="font-size: 0.85rem; max-width: 90%; background-color: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #fff;">
+              <i class="fa-solid fa-circle-info mt-1 me-2"></i>
+              <div>
+                <strong>Notice:</strong> The backend is currently hosted on a free tier platform (will migrate to AWS later). The first response may take a bit longer. We appreciate your patience!
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 text-center"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div class="phone-mockup mx-auto" style="transform: rotate(-5deg)">
+              <img
+                src="assets/WhatsApp_Image_2026-07-30_at_10.25.05_PM_1785430641058.jpeg"
+                alt="ArtPriyo Onboarding"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About ArtPriyo Section -->
+    <section id="about" class="section-padding bg-white text-dark">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h2 class="display-4 fw-bold mb-4 font-display text-dark">
+              More Than Just a Gallery
+            </h2>
+            <p class="fs-5 text-muted mb-4">
+              ArtPriyo is a revolutionary platform designed to empower artists
+              of all backgrounds. We believe your creativity should be rewarded,
+              which is why we've built an ecosystem where you can not only
+              showcase your masterpieces but also monetize your talent.
+            </p>
+            <ul class="list-unstyled fs-5 text-muted mb-0">
+              <li class="mb-3 d-flex align-items-center">
+                <i
+                  class="fa-solid fa-check-circle me-3 fs-4"
+                  style="color: #2d7dd2"
+                ></i>
+                <span
+                  ><strong>Showcase</strong> your portfolio to a global
+                  audience</span
+                >
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i
+                  class="fa-solid fa-check-circle me-3 fs-4"
+                  style="color: #2d7dd2"
+                ></i>
+                <span
+                  ><strong>Compete</strong> in thrilling art challenges and
+                  events</span
+                >
+              </li>
+              <li class="mb-3 d-flex align-items-center">
+                <i
+                  class="fa-solid fa-check-circle me-3 fs-4"
+                  style="color: #2d7dd2"
+                ></i>
+                <span
+                  ><strong>Win Cash</strong> prizes and withdraw instantly via
+                  UPI</span
+                >
+              </li>
+              <li class="d-flex align-items-center">
+                <i
+                  class="fa-solid fa-check-circle me-3 fs-4"
+                  style="color: #2d7dd2"
+                ></i>
+                <span
+                  ><strong>Connect</strong> with a vibrant community of
+                  creators</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div
+              class="p-4 p-md-5 bg-light rounded-4 shadow-sm border border-secondary border-opacity-10"
+            >
+              <h3 class="h4 fw-bold mb-3 font-display">Our Mission</h3>
+              <p class="text-muted mb-0" style="line-height: 1.8">
+                We are on a mission to democratize the art world. For too long,
+                talented creators have struggled to find a platform that truly
+                values their work. ArtPriyo bridges the gap between passion and
+                profession, providing a transparent, competitive, and rewarding
+                space where your art takes center stage.
+              </p>
+            </div>
+            <div
+              class="p-4 p-md-5 text-white rounded-4 shadow-sm mt-4"
+              style="background: linear-gradient(135deg, #1e293b, #0f172a)"
+            >
+              <h3 class="h4 fw-bold mb-3 font-display">Join the Movement</h3>
+              <p class="mb-0 opacity-90" style="line-height: 1.8">
+                Snap and upload photos of your artwork with ease—whether you're
+                entering exciting events or just sharing to your everyday
+                gallery. From digital illustrations to traditional paintings,
+                ArtPriyo is your stage.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Core Features -->
+    <section id="features" class="section-padding bg-light text-dark">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="display-4 fw-bold mb-3 font-display">
+            Built for Creatives
+          </h2>
+          <p class="fs-5 text-muted mx-auto" style="max-width: 600px">
+            Everything you need to showcase your talent, compete with peers, and
+            earn recognition
+          </p>
+        </div>
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div
+              class="glass-card p-4 rounded-4 h-100 hover-lift text-dark bg-white"
+            >
+              <div class="mb-3" style="font-size: 2.5rem; color: #2d7dd2">
+                <i class="fa-solid fa-paint-brush"></i>
+              </div>
+              <h3 class="h4 fw-bold mb-3 font-display">
+                Creative Social Network
+              </h3>
+              <p class="text-muted">
+                Build your portfolio, share your work, and connect with a
+                vibrant community of artists worldwide.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div
+              class="glass-card p-4 rounded-4 h-100 hover-lift text-dark bg-white"
+            >
+              <div class="mb-3" style="font-size: 2.5rem; color: #7c3aed">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <h3 class="h4 fw-bold mb-3 font-display">
+                Competitions & Events
+              </h3>
+              <p class="text-muted">
+                Enter category-based competitions with real prize pools. Win up
+                to ₹20,000+ per event.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div
+              class="glass-card p-4 rounded-4 h-100 hover-lift text-dark bg-white"
+            >
+              <div class="mb-3" style="font-size: 2.5rem; color: #2d7dd2">
+                <i class="fa-solid fa-medal"></i>
+              </div>
+              <h3 class="h4 fw-bold mb-3 font-display">Dynamic Leaderboards</h3>
+              <p class="text-muted">
+                Earn points, unlock achievement badges, and climb the ranks.
+                Your talent deserves recognition.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div
+              class="glass-card p-4 rounded-4 h-100 hover-lift text-dark bg-white"
+            >
+              <div class="mb-3" style="font-size: 2.5rem; color: #7c3aed">
+                <i class="fa-solid fa-wallet"></i>
+              </div>
+              <h3 class="h4 fw-bold mb-3 font-display">Integrated Wallet</h3>
+              <p class="text-muted">
+                Digital wallet with instant UPI redemption. Your winnings, your
+                way, your timeline.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section-padding text-dark">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="display-4 fw-bold mb-3 font-display">How It Works</h2>
+          <p class="fs-5 text-muted mx-auto" style="max-width: 600px">
+            Four simple steps to start earning from your creativity
+          </p>
+        </div>
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="text-center">
+              <div
+                class="display-3 fw-bold mb-3 opacity-25 font-display"
+                style="color: #2d7dd2"
+              >
+                01
+              </div>
+              <h3 class="h4 fw-bold mb-3 font-display">Create Your Profile</h3>
+              <p class="text-muted">
+                Sign up, set up your artist profile, and tell your story.
+                Showcase your best work.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="text-center">
+              <div
+                class="display-3 fw-bold mb-3 opacity-25 font-display"
+                style="color: #2d7dd2"
+              >
+                02
+              </div>
+              <h3 class="h4 fw-bold mb-3 font-display">Share & Discover</h3>
+              <p class="text-muted">
+                Post your creations, explore work from other artists, build
+                connections, get inspired.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="text-center">
+              <div
+                class="display-3 fw-bold mb-3 opacity-25 font-display"
+                style="color: #2d7dd2"
+              >
+                03
+              </div>
+              <h3 class="h4 fw-bold mb-3 font-display">Join Competitions</h3>
+              <p class="text-muted">
+                Browse active events, pay the entry fee, submit your work.
+                Categories for every art form.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="text-center">
+              <div
+                class="display-3 fw-bold mb-3 opacity-25 font-display"
+                style="color: #2d7dd2"
+              >
+                04
+              </div>
+              <h3 class="h4 fw-bold mb-3 font-display">
+                Earn Recognition & Cash
+              </h3>
+              <p class="text-muted">
+                Win prize money, climb leaderboards, unlock badges. Withdraw
+                instantly to your bank.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- App Screenshots Gallery -->
+    <section id="gallery" class="section-padding bg-light">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="display-4 fw-bold mb-3 font-display text-dark">
+            Experience ArtPriyo
+          </h2>
+          <p class="fs-5 text-muted mx-auto" style="max-width: 600px">
+            A beautiful, intuitive interface designed for artists by artists
+          </p>
+        </div>
+        <div
+          id="screenshotsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#screenshotsCarousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#screenshotsCarousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#screenshotsCarousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center gap-4 flex-wrap py-5">
+                <div class="phone-mockup">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.06_PM_1785430601354.jpeg"
+                    alt="Home Feed"
+                  />
+                </div>
+                <div class="phone-mockup d-none d-md-block">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.08_PM_1785430613395.jpeg"
+                    alt="Events List"
+                  />
+                </div>
+                <div class="phone-mockup d-none d-lg-block">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.09_PM_(2)_1785430620155.jpeg"
+                    alt="Wallet"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center gap-4 flex-wrap py-5">
+                <div class="phone-mockup">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.07_PM_1785430609501.jpeg"
+                    alt="Connect"
+                  />
+                </div>
+                <div class="phone-mockup d-none d-md-block">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.07_PM_(1)_1785430605170.jpeg"
+                    alt="New Post"
+                  />
+                </div>
+                <div class="phone-mockup d-none d-lg-block">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.09_PM_1785430623515.jpeg"
+                    alt="Profile"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center gap-4 flex-wrap py-5">
+                <div class="phone-mockup">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.09_PM_(1)_1785430617123.jpeg"
+                    alt="Event Details"
+                  />
+                </div>
+                <div class="phone-mockup d-none d-md-block">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.05_PM_1785430597856.jpeg"
+                    alt="Login"
+                  />
+                </div>
+                <div class="phone-mockup d-none d-lg-block">
+                  <img
+                    src="assets/WhatsApp_Image_2026-07-30_at_10.24.04_PM_1785430584693.jpeg"
+                    alt="Splash"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#screenshotsCarousel"
+            data-bs-slide="prev"
+            style="width: auto; left: 1rem; opacity: 1"
+          >
+            <div class="custom-carousel-arrow">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#screenshotsCarousel"
+            data-bs-slide="next"
+            style="width: auto; right: 1rem; opacity: 1"
+          >
+            <div class="custom-carousel-arrow">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Target Audience -->
+    <section class="section-padding text-dark">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="display-4 fw-bold mb-3 font-display">For Every Creator</h2>
+          <p class="fs-5 text-muted mx-auto" style="max-width: 600px">
+            No matter your medium, ArtPriyo is your stage
+          </p>
+        </div>
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div
+              class="text-center p-4 rounded-4 h-100"
+              style="background: rgba(45, 125, 210, 0.05)"
+            >
+              <div class="fs-1 mb-3">🎨</div>
+              <h3 class="h5 fw-bold mb-3 font-display">
+                Digital Artists & Illustrators
+              </h3>
+              <p class="text-muted small mb-0">
+                Showcase your digital paintings, illustrations, and graphic
+                designs
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div
+              class="text-center p-4 rounded-4 h-100"
+              style="background: rgba(45, 125, 210, 0.05)"
+            >
+              <div class="fs-1 mb-3">📸</div>
+              <h3 class="h5 fw-bold mb-3 font-display">
+                Photographers & Videographers
+              </h3>
+              <p class="text-muted small mb-0">
+                Share stunning visuals and compete in visual storytelling events
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div
+              class="text-center p-4 rounded-4 h-100"
+              style="background: rgba(45, 125, 210, 0.05)"
+            >
+              <div class="fs-1 mb-3">✍️</div>
+              <h3 class="h5 fw-bold mb-3 font-display">Writers & Musicians</h3>
+              <p class="text-muted small mb-0">
+                Express through words and melodies, connect with fellow creators
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div
+              class="text-center p-4 rounded-4 h-100"
+              style="background: rgba(45, 125, 210, 0.05)"
+            >
+              <div class="fs-1 mb-3">💃</div>
+              <h3 class="h5 fw-bold mb-3 font-display">Dancers & Performers</h3>
+              <p class="text-muted small mb-0">
+                Share your performances, enter talent competitions, build your
+                audience
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding bg-light text-dark">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="display-4 fw-bold mb-3 font-display">What Artists Say</h2>
+          <p class="fs-5 text-muted mx-auto" style="max-width: 600px">
+            Real stories from our creative community
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card p-4 rounded-4 h-100 bg-white">
+              <div
+                class="mb-3"
+                style="font-size: 2rem; color: #2d7dd2; opacity: 0.3"
+              >
+                "
+              </div>
+              <p class="mb-4 fst-italic">
+                The competitions pushed me to create better work. I won ₹12,000
+                in my first month and gained 2,000 new followers. This platform
+                changed my art career.
+              </p>
+              <div class="border-top pt-3">
+                <div class="fw-bold">Priya Sharma</div>
+                <div class="text-muted small">Digital Illustrator, Mumbai</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card p-4 rounded-4 h-100 bg-white">
+              <div
+                class="mb-3"
+                style="font-size: 2rem; color: #2d7dd2; opacity: 0.3"
+              >
+                "
+              </div>
+              <p class="mb-4 fst-italic">
+                I never thought I could earn money from my photography. ArtPriyo
+                proved me wrong. The community is supportive, the prizes are
+                real, and the app is beautiful.
+              </p>
+              <div class="border-top pt-3">
+                <div class="fw-bold">Arjun Mehta</div>
+                <div class="text-muted small">Photographer, Bangalore</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="glass-card p-4 rounded-4 h-100 bg-white">
+              <div
+                class="mb-3"
+                style="font-size: 2rem; color: #2d7dd2; opacity: 0.3"
+              >
+                "
+              </div>
+              <p class="mb-4 fst-italic">
+                Finally, a platform that understands artists. The wallet feature
+                is seamless, events are well-organized, and I've connected with
+                creators I admire. Highly recommend.
+              </p>
+              <div class="border-top pt-3">
+                <div class="fw-bold">Kavya Reddy</div>
+                <div class="text-muted small">
+                  Contemporary Artist, Hyderabad
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row g-4 mb-4">
+          <div class="col-lg-3">
+            <div class="font-display fw-bold fs-3 mb-3">
+              <span style="color: #fff">Art</span
+              ><span style="color: #2d7dd2">priyo</span>
+            </div>
+            <p class="text-white-50 small">
+              Showcase your talent, compete, and win!
+            </p>
+          </div>
+          <div class="col-6 col-lg-3">
+            <h5 class="fw-bold mb-3 font-display">Product</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="index.html#about"
+                  class="text-white-50 text-decoration-none"
+                  >About ArtPriyo</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="index.html#features"
+                  class="text-white-50 text-decoration-none"
+                  >Features</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="index.html#how-it-works"
+                  class="text-white-50 text-decoration-none"
+                  >How It Works</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="index.html#gallery"
+                  class="text-white-50 text-decoration-none"
+                  >Gallery</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3">
+            <h5 class="fw-bold mb-3 font-display">Legal</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="privacy.html"
+                  class="text-white-50 text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="terms.html" class="text-white-50 text-decoration-none"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="data-deletion.html"
+                  class="text-white-50 text-decoration-none"
+                  >Data Deletion</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="child-safety.html"
+                  class="text-white-50 text-decoration-none"
+                  >Child Safety</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="support.html"
+                  class="text-white-50 text-decoration-none"
+                  >Support / Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3">
+            <h5 class="fw-bold mb-3 font-display">Support</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="support.html"
+                  class="text-white-50 text-decoration-none"
+                  >About Us</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="support.html"
+                  class="text-white-50 text-decoration-none"
+                  >Help Center</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="border-top border-secondary pt-4 text-center text-white-50 small"
+        >
+          © 2025 ArtPriyo. All rights reserved. Built for artists, by artists.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
